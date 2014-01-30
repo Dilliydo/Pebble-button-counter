@@ -6,9 +6,9 @@ simply.on('singleClick', function(e) {
     simply.subtitle(++count);
   } else if (e.button === 'down') {
     simply.subtitle(--count);
-  }else if (f.button === 'down') {
+  } else if (f.button === 'down') {
     simply.subtitle(count - 2);
-  }else if (f.button === 'up') {
+  } else if (f.button === 'up') {
     simply.subtitle(count + 2);
   }
   localStorage.setItem('count', count);
