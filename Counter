@@ -10,4 +10,3 @@ simply.on('singleClick', function(e) {
 });
 
 simply.text({ title: 'Counter', subtitle: count }); 
-Console.log("lol");
